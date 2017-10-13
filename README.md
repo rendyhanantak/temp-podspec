@@ -1,0 +1,2 @@
+# tiketios-podspec
+IOS podspec
