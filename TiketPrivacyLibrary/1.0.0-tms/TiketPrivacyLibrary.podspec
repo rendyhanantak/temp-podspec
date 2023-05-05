@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = "TiketPrivacyLibrary"
     s.module_name      = "TiketPrivacyLibrary"
-    s.version          = "v1.0.0-tms"
+    s.version          = "1.0.0-tms"
     s.summary          = "Tiket Privacy Library Module"
     s.homepage         = "https://github.com/tiket"
     s.license          = "MIT"
     s.author           = { "Antoni" => "antoni@tiket.com" }
-    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: 'v'+ s.version.to_s }
+    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: 'v'+String(s.version) }
     s.platform         = :ios, "12.2"
     s.requires_arc     = true
     s.source_files     = "Tiket/TiketPrivacyLibrary/TiketPrivacyLibrary/Classes/**/*.{swift,h,m,bundle}"

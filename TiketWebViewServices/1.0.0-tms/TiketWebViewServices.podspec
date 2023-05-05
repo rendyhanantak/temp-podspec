@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = "TiketWebViewServices"
     s.module_name      = "TiketWebViewServices"
-    s.version          = "v1.0.0-tms"
+    s.version          = "1.0.0-tms"
     s.summary          = "Tiket WebView Services"
     s.homepage         = "https://github.com/tiket"
     s.license          = "MIT"
     s.author           = { "alifmahar" => "alif.mahardhika@tiket.com" }
-    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: String(s.version) }
+    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: 'v'+String(s.version) }
     s.platform         = :ios, "12.2"
     s.requires_arc     = true
     s.source_files     = "Tiket/TiketWebViewServices/TiketWebViewServices/Classes/**/*.{swift,h,m,bundle}"
