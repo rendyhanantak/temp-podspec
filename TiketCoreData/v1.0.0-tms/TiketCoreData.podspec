@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/tiket/tiketiphone'
     s.license          = "MIT"
     s.author           = { 'azmi' => 'muhammad.khairullah@tiket.com' }
-    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: 'v'+String(s.version) }
+    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: String(s.version) }
     s.requires_arc     = true
     s.module_name      = 'TiketCoreData'
     
