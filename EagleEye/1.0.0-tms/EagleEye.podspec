@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name             = 'EagleEye'
-    s.version          = 'v1.0.0-tms'
+    s.version          = '1.0.0-tms'
     s.summary          = 'Eagle Eye'
     s.description      = 'Eagle Eye'
     s.homepage         = 'https://github.com/tiket/tiketiphone'
     s.license          = { :type => 'MIT' }
     s.author           = { "Antoni" => "antoni@tiket.com" }
-    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: String(s.version) }
+    s.source           = { git: "git@github.com:tiket/tiketiphone.git", tag: 'v'+String(s.version) }
     s.requires_arc     = true
     s.module_name      = 'EagleEye'
 
