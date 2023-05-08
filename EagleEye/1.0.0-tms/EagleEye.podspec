@@ -14,11 +14,6 @@ Pod::Spec.new do |s|
     s.source_files = [
         'Tiket/EagleEye/EagleEye/Classes/**/*.swift'
     ]
-
-    s.resources = [
-        'Tiket/EagleEye/EagleEye/**/*.xcassets'
-    ]
-
     s.frameworks = ['Foundation']
     s.dependency 'RxSwift'
     s.dependency 'RxCocoa'
