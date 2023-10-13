@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AA9F5CB2AD8F9D300F7C442 /* AppDelegate+Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5CA2AD8F9D300F7C442 /* AppDelegate+Dependency.swift */; };
+		0AA9F5CD2AD8FB5100F7C442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9F5CC2AD8FB5100F7C442 /* GoogleService-Info.plist */; };
+		0AA9F5DC2AD8FC9300F7C442 /* DiagnosticResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5CF2AD8FC9300F7C442 /* DiagnosticResponse.swift */; };
+		0AA9F5DD2AD8FC9300F7C442 /* MockEagleEyeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D12AD8FC9300F7C442 /* MockEagleEyeController.swift */; };
+		0AA9F5DE2AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D22AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift */; };
+		0AA9F5DF2AD8FC9300F7C442 /* MockCacheAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D32AD8FC9300F7C442 /* MockCacheAdapter.swift */; };
+		0AA9F5E02AD8FC9300F7C442 /* MockSSLPinningService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D42AD8FC9300F7C442 /* MockSSLPinningService.swift */; };
+		0AA9F5E12AD8FC9300F7C442 /* MockRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D52AD8FC9300F7C442 /* MockRequestAdapter.swift */; };
+		0AA9F5E22AD8FC9300F7C442 /* MockTokenApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D62AD8FC9300F7C442 /* MockTokenApi.swift */; };
+		0AA9F5E32AD8FC9300F7C442 /* IgnisPrivacyPreferenceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D72AD8FC9300F7C442 /* IgnisPrivacyPreferenceImpl.swift */; };
+		0AA9F5E42AD8FC9300F7C442 /* MockAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D82AD8FC9300F7C442 /* MockAppConfig.swift */; };
+		0AA9F5E52AD8FC9300F7C442 /* MockTokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D92AD8FC9300F7C442 /* MockTokenRepository.swift */; };
+		0AA9F5E62AD8FC9300F7C442 /* MockEagleEyeSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5DA2AD8FC9300F7C442 /* MockEagleEyeSessionDelegate.swift */; };
+		0AA9F5E72AD8FC9300F7C442 /* MockTDSCoreWebViewFirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5DB2AD8FC9300F7C442 /* MockTDSCoreWebViewFirebaseService.swift */; };
 		0AB3279E2AD3D51A00559FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB3279D2AD3D51A00559FAB /* AppDelegate.swift */; };
 		0AB327A22AD3D51A00559FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB327A12AD3D51A00559FAB /* ViewController.swift */; };
 		0AB327A72AD3D51C00559FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AB327A62AD3D51C00559FAB /* Assets.xcassets */; };
@@ -15,6 +29,9 @@
 		0AB327BF2AD3D51C00559FAB /* TiketEventsMerchantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB327BE2AD3D51C00559FAB /* TiketEventsMerchantsUITests.swift */; };
 		0AB327C12AD3D51C00559FAB /* TiketEventsMerchantsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB327C02AD3D51C00559FAB /* TiketEventsMerchantsUITestsLaunchTests.swift */; };
 		0AB327CE2AD3D9B600559FAB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AB327CD2AD3D9B600559FAB /* ViewController.xib */; };
+		5379147245CB29D1CE077F27 /* Pods_TiketEventsMerchantsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D4E40F6693262F44CA2216 /* Pods_TiketEventsMerchantsTests.framework */; };
+		87D3A8FA7EF51D8CDDD351FB /* Pods_TiketEventsMerchants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531CAA596373A9C50CFF6C41 /* Pods_TiketEventsMerchants.framework */; };
+		A6893130C9FBF4014B972959 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03098D40354B940402129A79 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03098D40354B940402129A79 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D4E40F6693262F44CA2216 /* Pods_TiketEventsMerchantsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiketEventsMerchantsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA9F5CA2AD8F9D300F7C442 /* AppDelegate+Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Dependency.swift"; sourceTree = "<group>"; };
+		0AA9F5CC2AD8FB5100F7C442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AA9F5CF2AD8FC9300F7C442 /* DiagnosticResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticResponse.swift; sourceTree = "<group>"; };
+		0AA9F5D12AD8FC9300F7C442 /* MockEagleEyeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEagleEyeController.swift; sourceTree = "<group>"; };
+		0AA9F5D22AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAuthenticatedTiketApiClient.swift; sourceTree = "<group>"; };
+		0AA9F5D32AD8FC9300F7C442 /* MockCacheAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCacheAdapter.swift; sourceTree = "<group>"; };
+		0AA9F5D42AD8FC9300F7C442 /* MockSSLPinningService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSSLPinningService.swift; sourceTree = "<group>"; };
+		0AA9F5D52AD8FC9300F7C442 /* MockRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRequestAdapter.swift; sourceTree = "<group>"; };
+		0AA9F5D62AD8FC9300F7C442 /* MockTokenApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTokenApi.swift; sourceTree = "<group>"; };
+		0AA9F5D72AD8FC9300F7C442 /* IgnisPrivacyPreferenceImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnisPrivacyPreferenceImpl.swift; sourceTree = "<group>"; };
+		0AA9F5D82AD8FC9300F7C442 /* MockAppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAppConfig.swift; sourceTree = "<group>"; };
+		0AA9F5D92AD8FC9300F7C442 /* MockTokenRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTokenRepository.swift; sourceTree = "<group>"; };
+		0AA9F5DA2AD8FC9300F7C442 /* MockEagleEyeSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEagleEyeSessionDelegate.swift; sourceTree = "<group>"; };
+		0AA9F5DB2AD8FC9300F7C442 /* MockTDSCoreWebViewFirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTDSCoreWebViewFirebaseService.swift; sourceTree = "<group>"; };
 		0AB3279A2AD3D51A00559FAB /* TiketEventsMerchants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiketEventsMerchants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB3279D2AD3D51A00559FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB327A12AD3D51A00559FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,13 @@
 		0AB327BE2AD3D51C00559FAB /* TiketEventsMerchantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiketEventsMerchantsUITests.swift; sourceTree = "<group>"; };
 		0AB327C02AD3D51C00559FAB /* TiketEventsMerchantsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiketEventsMerchantsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0AB327CD2AD3D9B600559FAB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		1E6AE87FDD1CE7ED3B7BDD53 /* Pods-TiketEventsMerchants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants.release.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants.release.xcconfig"; sourceTree = "<group>"; };
+		1F2FCDAC60856A7ADC1D98AA /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FE3C35CF9F3D31F50EBE3B1 /* Pods-TiketEventsMerchantsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchantsTests.debug.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchantsTests/Pods-TiketEventsMerchantsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		531CAA596373A9C50CFF6C41 /* Pods_TiketEventsMerchants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiketEventsMerchants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A85F640495E026026885CDA /* Pods-TiketEventsMerchantsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchantsTests.release.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchantsTests/Pods-TiketEventsMerchantsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8755ACCE1F9E1248FEEBD98B /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.debug.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DA3D4D77440ABC0C853AA96 /* Pods-TiketEventsMerchants.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants.debug.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D3A8FA7EF51D8CDDD351FB /* Pods_TiketEventsMerchants.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5379147245CB29D1CE077F27 /* Pods_TiketEventsMerchantsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +110,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6893130C9FBF4014B972959 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA9F5CE2AD8FC9300F7C442 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				0AA9F5CF2AD8FC9300F7C442 /* DiagnosticResponse.swift */,
+				0AA9F5D02AD8FC9300F7C442 /* Mock */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		0AA9F5D02AD8FC9300F7C442 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				0AA9F5D12AD8FC9300F7C442 /* MockEagleEyeController.swift */,
+				0AA9F5D22AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift */,
+				0AA9F5D32AD8FC9300F7C442 /* MockCacheAdapter.swift */,
+				0AA9F5D42AD8FC9300F7C442 /* MockSSLPinningService.swift */,
+				0AA9F5D52AD8FC9300F7C442 /* MockRequestAdapter.swift */,
+				0AA9F5D62AD8FC9300F7C442 /* MockTokenApi.swift */,
+				0AA9F5D72AD8FC9300F7C442 /* IgnisPrivacyPreferenceImpl.swift */,
+				0AA9F5D82AD8FC9300F7C442 /* MockAppConfig.swift */,
+				0AA9F5D92AD8FC9300F7C442 /* MockTokenRepository.swift */,
+				0AA9F5DA2AD8FC9300F7C442 /* MockEagleEyeSessionDelegate.swift */,
+				0AA9F5DB2AD8FC9300F7C442 /* MockTDSCoreWebViewFirebaseService.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		0AB327912AD3D51A00559FAB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +151,8 @@
 				0AB327B32AD3D51C00559FAB /* TiketEventsMerchantsTests */,
 				0AB327BD2AD3D51C00559FAB /* TiketEventsMerchantsUITests */,
 				0AB3279B2AD3D51A00559FAB /* Products */,
+				AC27A30865D201CB960EE40B /* Pods */,
+				0D11B1A269D888F17ABA081A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +170,14 @@
 			isa = PBXGroup;
 			children = (
 				0AB3279D2AD3D51A00559FAB /* AppDelegate.swift */,
+				0AA9F5CA2AD8F9D300F7C442 /* AppDelegate+Dependency.swift */,
 				0AB327A12AD3D51A00559FAB /* ViewController.swift */,
 				0AB327CD2AD3D9B600559FAB /* ViewController.xib */,
+				0AA9F5CE2AD8FC9300F7C442 /* Dependency */,
 				0AB327A62AD3D51C00559FAB /* Assets.xcassets */,
 				0AB327A82AD3D51C00559FAB /* LaunchScreen.storyboard */,
 				0AB327AB2AD3D51C00559FAB /* Info.plist */,
+				0AA9F5CC2AD8FB5100F7C442 /* GoogleService-Info.plist */,
 			);
 			path = TiketEventsMerchants;
 			sourceTree = "<group>";
@@ -124,6 +199,29 @@
 			path = TiketEventsMerchantsUITests;
 			sourceTree = "<group>";
 		};
+		0D11B1A269D888F17ABA081A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				531CAA596373A9C50CFF6C41 /* Pods_TiketEventsMerchants.framework */,
+				03098D40354B940402129A79 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework */,
+				04D4E40F6693262F44CA2216 /* Pods_TiketEventsMerchantsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC27A30865D201CB960EE40B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA3D4D77440ABC0C853AA96 /* Pods-TiketEventsMerchants.debug.xcconfig */,
+				1E6AE87FDD1CE7ED3B7BDD53 /* Pods-TiketEventsMerchants.release.xcconfig */,
+				8755ACCE1F9E1248FEEBD98B /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.debug.xcconfig */,
+				1F2FCDAC60856A7ADC1D98AA /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig */,
+				2FE3C35CF9F3D31F50EBE3B1 /* Pods-TiketEventsMerchantsTests.debug.xcconfig */,
+				7A85F640495E026026885CDA /* Pods-TiketEventsMerchantsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AB327C42AD3D51C00559FAB /* Build configuration list for PBXNativeTarget "TiketEventsMerchants" */;
 			buildPhases = (
+				EE6DD5AD3E37767AB68B3681 /* [CP] Check Pods Manifest.lock */,
 				0AB327962AD3D51A00559FAB /* Sources */,
 				0AB327972AD3D51A00559FAB /* Frameworks */,
 				0AB327982AD3D51A00559FAB /* Resources */,
+				AE624C0D81F953412EDFA199 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AB327C72AD3D51C00559FAB /* Build configuration list for PBXNativeTarget "TiketEventsMerchantsTests" */;
 			buildPhases = (
+				B941266F1542433691B7B85B /* [CP] Check Pods Manifest.lock */,
 				0AB327AC2AD3D51C00559FAB /* Sources */,
 				0AB327AD2AD3D51C00559FAB /* Frameworks */,
 				0AB327AE2AD3D51C00559FAB /* Resources */,
@@ -166,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AB327CA2AD3D51C00559FAB /* Build configuration list for PBXNativeTarget "TiketEventsMerchantsUITests" */;
 			buildPhases = (
+				ABBF65AA6ED7CEBA12BAF24C /* [CP] Check Pods Manifest.lock */,
 				0AB327B62AD3D51C00559FAB /* Sources */,
 				0AB327B72AD3D51C00559FAB /* Frameworks */,
 				0AB327B82AD3D51C00559FAB /* Resources */,
+				F42688B2B33A1363AA4BAF49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB327AA2AD3D51C00559FAB /* LaunchScreen.storyboard in Resources */,
+				0AA9F5CD2AD8FB5100F7C442 /* GoogleService-Info.plist in Resources */,
 				0AB327CE2AD3D9B600559FAB /* ViewController.xib in Resources */,
 				0AB327A72AD3D51C00559FAB /* Assets.xcassets in Resources */,
 			);
@@ -250,13 +354,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ABBF65AA6ED7CEBA12BAF24C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE624C0D81F953412EDFA199 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B941266F1542433691B7B85B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiketEventsMerchantsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6DD5AD3E37767AB68B3681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiketEventsMerchants-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42688B2B33A1363AA4BAF49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AB327962AD3D51A00559FAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA9F5DD2AD8FC9300F7C442 /* MockEagleEyeController.swift in Sources */,
 				0AB327A22AD3D51A00559FAB /* ViewController.swift in Sources */,
+				0AA9F5E52AD8FC9300F7C442 /* MockTokenRepository.swift in Sources */,
+				0AA9F5E22AD8FC9300F7C442 /* MockTokenApi.swift in Sources */,
+				0AA9F5E42AD8FC9300F7C442 /* MockAppConfig.swift in Sources */,
+				0AA9F5DF2AD8FC9300F7C442 /* MockCacheAdapter.swift in Sources */,
 				0AB3279E2AD3D51A00559FAB /* AppDelegate.swift in Sources */,
+				0AA9F5CB2AD8F9D300F7C442 /* AppDelegate+Dependency.swift in Sources */,
+				0AA9F5DC2AD8FC9300F7C442 /* DiagnosticResponse.swift in Sources */,
+				0AA9F5E02AD8FC9300F7C442 /* MockSSLPinningService.swift in Sources */,
+				0AA9F5E62AD8FC9300F7C442 /* MockEagleEyeSessionDelegate.swift in Sources */,
+				0AA9F5E12AD8FC9300F7C442 /* MockRequestAdapter.swift in Sources */,
+				0AA9F5DE2AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift in Sources */,
+				0AA9F5E32AD8FC9300F7C442 /* IgnisPrivacyPreferenceImpl.swift in Sources */,
+				0AA9F5E72AD8FC9300F7C442 /* MockTDSCoreWebViewFirebaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +640,7 @@
 		};
 		0AB327C52AD3D51C00559FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA3D4D77440ABC0C853AA96 /* Pods-TiketEventsMerchants.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -450,6 +671,7 @@
 		};
 		0AB327C62AD3D51C00559FAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6AE87FDD1CE7ED3B7BDD53 /* Pods-TiketEventsMerchants.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +702,7 @@
 		};
 		0AB327C82AD3D51C00559FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE3C35CF9F3D31F50EBE3B1 /* Pods-TiketEventsMerchantsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +723,7 @@
 		};
 		0AB327C92AD3D51C00559FAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A85F640495E026026885CDA /* Pods-TiketEventsMerchantsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +744,7 @@
 		};
 		0AB327CB2AD3D51C00559FAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8755ACCE1F9E1248FEEBD98B /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +763,7 @@
 		};
 		0AB327CC2AD3D51C00559FAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F2FCDAC60856A7ADC1D98AA /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

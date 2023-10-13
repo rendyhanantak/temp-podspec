@@ -1,0 +1,54 @@
+platform :ios, '12.2'
+
+source 'https://cdn.cocoapods.org/'
+source 'git@github.com:tiket/tiketios-podspec.git'
+#source 'git@github.com:ihsanaqidah/tiketios-podspec-beta.git'
+$tiket_module_version = '1.0.1-tms'
+
+target 'TiketEventsMerchants' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TiketEventsMerchants
+  # TiketNetworkingServices & dependencies modules
+  pod 'TiketNetworkingServices', $tiket_module_version
+  pod 'TiketCommon', $tiket_module_version
+  pod 'EagleEye', $tiket_module_version
+  pod 'TiketCoreData', $tiket_module_version
+  pod 'TiketFramework', '0.5.1.1'
+
+  # TiketWebViewServices & dependencies modules
+  pod 'TiketWebViewServices', $tiket_module_version
+  pod 'TiketComponent', $tiket_module_version
+  pod 'TiketImageLoader', $tiket_module_version
+  pod 'TiketDataRepositories', $tiket_module_version
+  pod 'TiketGrowthServices', $tiket_module_version
+  pod 'TiketGeneralConfigModule', $tiket_module_version
+  pod 'TiketPerformanceLibrary', $tiket_module_version
+  pod 'TiketPrivacyLibrary', $tiket_module_version
+  pod 'TiketTrackerServices', $tiket_module_version
+
+  # Pods depend by Tiket modules
+  pod 'RxSwift', '6.0'
+  pod 'RxCocoa', '6.0'
+  pod 'RxWebKit', git: 'https://github.com/tiket-apps-ci/RxWebKit'
+  pod 'Alamofire', '4.8.2'
+  pod 'JLRoutes', '2.1'
+  pod 'lottie-ios', '3.4.0'
+  pod 'Firebase/Core', '8.14.0'
+  pod 'Firebase/Performance', '8.14.0'
+  pod 'Firebase/Analytics', '8.14.0'
+  pod 'R.swift', '6.1.0'
+  pod 'Swinject', '2.6.0'
+  pod 'Reqres', '3.1.1'
+	
+  target 'TiketEventsMerchantsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TiketEventsMerchantsUITests' do
+    # Pods for testing
+  end
+
+end

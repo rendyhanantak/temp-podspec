@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Firebase
+import TiketWebViewServices
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -13,8 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        setupDependencies()
+        
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = ViewController(nibName: "ViewController", bundle: nil)
+        window?.rootViewController = TDSCoreWebViewController(url: "https://tiket.com", titleType: .dynamic)
         window?.makeKeyAndVisible()
         return true
     }

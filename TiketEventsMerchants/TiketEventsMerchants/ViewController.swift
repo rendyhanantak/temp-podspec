@@ -54,7 +54,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     private func loadWebView() {
         let urlStr: String?
 //        urlStr = "https://tix-app-gatotkaca.tiket.com/home" // Staging
-        urlStr = "https://tix-app.tiket.com/home" // Production
+        urlStr = "https://tiket.com" // Production
         
         if let urlStr = urlStr, let url = URL(string: urlStr) {
             wkWebView.load(URLRequest(url: url))
