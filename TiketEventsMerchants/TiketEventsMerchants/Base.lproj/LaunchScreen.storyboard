@@ -18,9 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ss-foreground-ignis-splashscsreen" translatesAutoresizingMaskIntoConstraints="NO" id="3Pl-h2-Bw8">
-                                <rect key="frame" x="131.66666666666666" y="186" width="129.99999999999997" height="480"/>
+                                <rect key="frame" x="121.66666666666669" y="126" width="150" height="480"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="130" id="NRn-xb-FDx"/>
                                     <constraint firstAttribute="height" constant="480" id="xvv-Sg-9X2"/>
                                 </constraints>
                             </imageView>
@@ -28,8 +27,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="3Pl-h2-Bw8" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.381679" id="Fp5-ni-Rri"/>
                             <constraint firstItem="3Pl-h2-Bw8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="f00-vD-rdy"/>
-                            <constraint firstItem="3Pl-h2-Bw8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hAP-Eb-UG1"/>
+                            <constraint firstItem="3Pl-h2-Bw8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-60" id="hAP-Eb-UG1"/>
                         </constraints>
                     </view>
                 </viewController>
