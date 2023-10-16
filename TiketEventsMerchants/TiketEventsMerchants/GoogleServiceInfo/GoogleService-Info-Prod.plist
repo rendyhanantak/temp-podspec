@@ -2,18 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CLIENT_ID</key>
+	<string>502525870774-jmkqh9cadafjc7he5c34al6nqqebkaa7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.502525870774-jmkqh9cadafjc7he5c34al6nqqebkaa7</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCVWzsL9Tcbrv6Wr9VkamIBQjfmik3vb4o</string>
+	<string>AIzaSyA6HUf8R8q7xdBcjXNrRYdTu5MUhLoW39w</string>
 	<key>GCM_SENDER_ID</key>
-	<string>97009536634</string>
+	<string>502525870774</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.tiket.ttd.ignis.dev</string>
+	<string>com.tiket.ttd.ignis</string>
 	<key>PROJECT_ID</key>
-	<string>tk-test-ttdignis</string>
+	<string>tk-prod-ttdignis</string>
 	<key>STORAGE_BUCKET</key>
-	<string>tk-test-ttdignis.appspot.com</string>
+	<string>tk-prod-ttdignis.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:97009536634:ios:64f930df4b5d7af3d675c3</string>
+	<string>1:502525870774:ios:fd2e72584b1a4abfb71c17</string>
 </dict>
 </plist>

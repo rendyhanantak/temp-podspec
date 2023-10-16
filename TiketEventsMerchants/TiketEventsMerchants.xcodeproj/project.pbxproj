@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0AA9F5CB2AD8F9D300F7C442 /* AppDelegate+Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5CA2AD8F9D300F7C442 /* AppDelegate+Dependency.swift */; };
-		0AA9F5CD2AD8FB5100F7C442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AA9F5CC2AD8FB5100F7C442 /* GoogleService-Info.plist */; };
 		0AA9F5DC2AD8FC9300F7C442 /* DiagnosticResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5CF2AD8FC9300F7C442 /* DiagnosticResponse.swift */; };
 		0AA9F5DD2AD8FC9300F7C442 /* MockEagleEyeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D12AD8FC9300F7C442 /* MockEagleEyeController.swift */; };
 		0AA9F5DE2AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA9F5D22AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift */; };
@@ -33,6 +32,10 @@
 		0ACC76FD2ADD018500963AC8 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC76F92ADD018500963AC8 /* Release.xcconfig */; };
 		0ACC76FE2ADD018500963AC8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC76FA2ADD018500963AC8 /* Config.swift */; };
 		0ACC76FF2ADD018500963AC8 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC76FB2ADD018500963AC8 /* Base.xcconfig */; };
+		0ACC77062ADD2A7200963AC8 /* FirebaseInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC77052ADD2A7200963AC8 /* FirebaseInitializer.swift */; };
+		0ACC770B2ADD46A900963AC8 /* GoogleService-Info-Dev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC770A2ADD46A900963AC8 /* GoogleService-Info-Dev.plist */; };
+		0ACC77102ADD481200963AC8 /* GoogleService-Info-Prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC770F2ADD481200963AC8 /* GoogleService-Info-Prod.plist */; };
+		0ACC77122ADD49B600963AC8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0ACC77112ADD49B600963AC8 /* GoogleService-Info.plist */; };
 		5379147245CB29D1CE077F27 /* Pods_TiketEventsMerchantsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D4E40F6693262F44CA2216 /* Pods_TiketEventsMerchantsTests.framework */; };
 		87D3A8FA7EF51D8CDDD351FB /* Pods_TiketEventsMerchants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531CAA596373A9C50CFF6C41 /* Pods_TiketEventsMerchants.framework */; };
 		A6893130C9FBF4014B972959 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03098D40354B940402129A79 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework */; };
@@ -59,7 +62,6 @@
 		03098D40354B940402129A79 /* Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiketEventsMerchants_TiketEventsMerchantsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D4E40F6693262F44CA2216 /* Pods_TiketEventsMerchantsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiketEventsMerchantsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA9F5CA2AD8F9D300F7C442 /* AppDelegate+Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Dependency.swift"; sourceTree = "<group>"; };
-		0AA9F5CC2AD8FB5100F7C442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0AA9F5CF2AD8FC9300F7C442 /* DiagnosticResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticResponse.swift; sourceTree = "<group>"; };
 		0AA9F5D12AD8FC9300F7C442 /* MockEagleEyeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEagleEyeController.swift; sourceTree = "<group>"; };
 		0AA9F5D22AD8FC9300F7C442 /* MockAuthenticatedTiketApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAuthenticatedTiketApiClient.swift; sourceTree = "<group>"; };
@@ -88,6 +90,10 @@
 		0ACC76F92ADD018500963AC8 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		0ACC76FA2ADD018500963AC8 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		0ACC76FB2ADD018500963AC8 /* Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		0ACC77052ADD2A7200963AC8 /* FirebaseInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseInitializer.swift; sourceTree = "<group>"; };
+		0ACC770A2ADD46A900963AC8 /* GoogleService-Info-Dev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Dev.plist"; sourceTree = "<group>"; };
+		0ACC770F2ADD481200963AC8 /* GoogleService-Info-Prod.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Prod.plist"; sourceTree = "<group>"; };
+		0ACC77112ADD49B600963AC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B6C326D88A326D3BD4B42B4 /* Pods-TiketEventsMerchants.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants.debugprod.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants.debugprod.xcconfig"; sourceTree = "<group>"; };
 		1E6AE87FDD1CE7ED3B7BDD53 /* Pods-TiketEventsMerchants.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants.release.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants/Pods-TiketEventsMerchants.release.xcconfig"; sourceTree = "<group>"; };
 		1F2FCDAC60856A7ADC1D98AA /* Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig"; path = "Target Support Files/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests/Pods-TiketEventsMerchants-TiketEventsMerchantsUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +189,9 @@
 		0AB3279C2AD3D51A00559FAB /* TiketEventsMerchants */ = {
 			isa = PBXGroup;
 			children = (
+				0ACC77112ADD49B600963AC8 /* GoogleService-Info.plist */,
+				0ACC77072ADD464800963AC8 /* GoogleServiceInfo */,
+				0ACC77042ADD2A5900963AC8 /* Initializer */,
 				0ACC76F72ADD018500963AC8 /* Config */,
 				0AB3279D2AD3D51A00559FAB /* AppDelegate.swift */,
 				0AA9F5CA2AD8F9D300F7C442 /* AppDelegate+Dependency.swift */,
@@ -192,7 +201,6 @@
 				0AB327A62AD3D51C00559FAB /* Assets.xcassets */,
 				0AB327A82AD3D51C00559FAB /* LaunchScreen.storyboard */,
 				0AB327AB2AD3D51C00559FAB /* Info.plist */,
-				0AA9F5CC2AD8FB5100F7C442 /* GoogleService-Info.plist */,
 			);
 			path = TiketEventsMerchants;
 			sourceTree = "<group>";
@@ -224,6 +232,23 @@
 			);
 			path = Config;
 			sourceTree = SOURCE_ROOT;
+		};
+		0ACC77042ADD2A5900963AC8 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC77052ADD2A7200963AC8 /* FirebaseInitializer.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		0ACC77072ADD464800963AC8 /* GoogleServiceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC770F2ADD481200963AC8 /* GoogleService-Info-Prod.plist */,
+				0ACC770A2ADD46A900963AC8 /* GoogleService-Info-Dev.plist */,
+			);
+			path = GoogleServiceInfo;
+			sourceTree = "<group>";
 		};
 		0D11B1A269D888F17ABA081A /* Frameworks */ = {
 			isa = PBXGroup;
@@ -262,6 +287,7 @@
 			buildConfigurationList = 0AB327C42AD3D51C00559FAB /* Build configuration list for PBXNativeTarget "TiketEventsMerchants" */;
 			buildPhases = (
 				EE6DD5AD3E37767AB68B3681 /* [CP] Check Pods Manifest.lock */,
+				0ACC770C2ADD473600963AC8 /* Update GoogleService-Info plist base on scheme configuration */,
 				0AB327962AD3D51A00559FAB /* Sources */,
 				0AB327972AD3D51A00559FAB /* Frameworks */,
 				0AB327982AD3D51A00559FAB /* Resources */,
@@ -364,12 +390,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB327AA2AD3D51C00559FAB /* LaunchScreen.storyboard in Resources */,
-				0AA9F5CD2AD8FB5100F7C442 /* GoogleService-Info.plist in Resources */,
+				0ACC770B2ADD46A900963AC8 /* GoogleService-Info-Dev.plist in Resources */,
+				0ACC77122ADD49B600963AC8 /* GoogleService-Info.plist in Resources */,
 				0ACC76FD2ADD018500963AC8 /* Release.xcconfig in Resources */,
 				0AB327CE2AD3D9B600559FAB /* ViewController.xib in Resources */,
 				0ACC76FC2ADD018500963AC8 /* Debug.xcconfig in Resources */,
 				0AB327A72AD3D51C00559FAB /* Assets.xcassets in Resources */,
 				0ACC76FF2ADD018500963AC8 /* Base.xcconfig in Resources */,
+				0ACC77102ADD481200963AC8 /* GoogleService-Info-Prod.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +418,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0ACC770C2ADD473600963AC8 /* Update GoogleService-Info plist base on scheme configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Update GoogleService-Info plist base on scheme configuration";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/TiketEventsMerchants/GoogleServiceInfo\"\n\necho \"plist $PATH_TO_GOOGLE_PLISTS\"\necho \"pdir ${PROJECT_DIR}\"\n\ncase \"${CONFIGURATION}\" in\n\n   \"Debug\" | \"Debugprod\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/GoogleService-Info-Dev.plist\" \"${PROJECT_DIR}/Tiket/GoogleService-Info.plist\"\n   echo \"Using DEV plist\"  ;; \n\n   \"Release\" | \"Releasestage\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/GoogleService-Info-Prod.plist\" \"${PROJECT_DIR}/Tiket/GoogleService-Info.plist\"\n    echo \"Using PRD plist\"  ;;\n\n    *)\n        ;;\nesac\n";
+		};
 		ABBF65AA6ED7CEBA12BAF24C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACC77062ADD2A7200963AC8 /* FirebaseInitializer.swift in Sources */,
 				0AA9F5DD2AD8FC9300F7C442 /* MockEagleEyeController.swift in Sources */,
 				0AB327A22AD3D51A00559FAB /* ViewController.swift in Sources */,
 				0AA9F5E52AD8FC9300F7C442 /* MockTokenRepository.swift in Sources */,
@@ -716,9 +763,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R8EMKFHGH9;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = R8EMKFHGH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TiketEventsMerchants/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -732,6 +781,8 @@
 				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiket.ttd.ignis;
 				PRODUCT_NAME = "Tiket Ignis";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "TTD Ignis Distribution";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -889,6 +940,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8EMKFHGH9;
@@ -906,6 +958,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiket.ttd.ignis.dev;
 				PRODUCT_NAME = "Tiket Ignis Debug";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
@@ -1017,9 +1070,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = R8EMKFHGH9;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = R8EMKFHGH9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TiketEventsMerchants/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1033,6 +1088,8 @@
 				MARKETING_VERSION = 3.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tiket.ttd.ignis;
 				PRODUCT_NAME = "Tiket Ignis";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "TTD Ignis Ad Hoc";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
