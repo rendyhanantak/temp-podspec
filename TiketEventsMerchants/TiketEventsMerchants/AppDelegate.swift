@@ -19,7 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         setupDependencies()
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = TDSCoreWebViewController(url: "https://tiket.com", titleType: .dynamic)
+        //TODO: Change url
+        let urlString = BuildConfig.feBaseUrl()
+        window?.rootViewController = TDSCoreWebViewController(url: urlString, titleType: .dynamic)
         window?.makeKeyAndVisible()
         return true
     }

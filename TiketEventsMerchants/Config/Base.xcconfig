@@ -1,0 +1,12 @@
+//
+//  Base.xcconfig
+//  TiketEventsMerchants
+//
+//  Created by Radhakrishna Pai on 22/05/23.
+//  Copyright © 2023 Tiket.com. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_FE_URL = tiket.com/
